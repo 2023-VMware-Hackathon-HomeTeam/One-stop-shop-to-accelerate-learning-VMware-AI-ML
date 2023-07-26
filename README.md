@@ -17,7 +17,7 @@ The Home Team - One stop shop to accelerate your learning of VMware and AI/ML:
 
 ### Paid
 
-## What would you need to run AI/ML or even Large Landuage Models in your homelab, test lab at work, etc?
+## What would you need to run AI/ML or even Large Language Models in your homelab, test lab at work, etc?
 
 ### GPU
 
