@@ -21,6 +21,10 @@ The Home Team - One stop shop to accelerate your learning of VMware and AI/ML:
 
 ### GPU
 
+#### Nvidia
+
+Probably the best resource for everything NVIDIA plus vSphere is this link https://docs.nvidia.com/ai-enterprise/deployment-guide-vmware/0.1.0/index.html
+
 ### CPU, RAM, Storage
 
 
