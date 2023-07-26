@@ -28,3 +28,5 @@ Probably the best resource for everything NVIDIA plus vSphere is this link https
 ### CPU, RAM, Storage
 
 
+## Quickstart guide for a homelab with no GPU but still have fun
+
