@@ -29,4 +29,4 @@ Probably the best resource for everything NVIDIA plus vSphere is this link https
 
 
 ## Quickstart guide for a homelab with no GPU but still have fun
-
+https://williamlam.com/2023/05/google-coral-usb-edge-tpu-accelerator-on-esxi.html
