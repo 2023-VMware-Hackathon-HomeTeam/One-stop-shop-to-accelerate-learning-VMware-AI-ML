@@ -11,7 +11,7 @@ The Home Team - One stop shop to accelerate your learning of VMware and AI/ML:
 ## What is AI/ML
 
 
-## Where can you learn it?
+## Where and how can you learn it?
 
 ### Free
 
