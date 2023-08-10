@@ -1,4 +1,6 @@
 # One-stop-shop-to-accelerate-learning-VMware-AI-ML
+![An ethereal Aritifial Intelligence being hovers over an open book](https://github.com/2023-VMware-Hackathon-HomeTeam/One-stop-shop-to-accelerate-learning-VMware-AI-ML/blob/main/aibookimage.jpeg?raw=true)[^1]
+
 One stop shop to accelerate your learning of VMware and AI/ML
 
 ## Introduction
@@ -73,3 +75,4 @@ Let's look at two of those scripts, which install tools similiar to _ChatGPT_ an
     iex (irm auto11.tc.ht)
     ```
   
+[^1]: Image generated via [Stable Diffusion Online](https://stablediffusionweb.com/).
