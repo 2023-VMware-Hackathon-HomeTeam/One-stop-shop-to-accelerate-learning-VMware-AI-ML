@@ -60,7 +60,7 @@ Let's look at two of those scripts, which install tools similiar to _ChatGPT_ an
 
 - **Vicuna**
   - An open-source chatbot based on [LLaMa](https://en.wikipedia.org/wiki/LLaMA), which claims to achieve 90% quality of _ChatGPT GPT-4_.
-  - Can take advantage of _NVIDIA_ GPU and _AMD_ CPU (MacOS & Linux only), or can run CPU-only.
+  - Can take advantage of _NVIDIA_ GPU and _AMD_ GPU (MacOS & Linux only), or can run CPU-only.
   - To install on _Windows 10/11_, run the following command from an elevated (administrator) PowerShell prompt:
     ```powershell
     iex (irm vicuna.tc.ht)
