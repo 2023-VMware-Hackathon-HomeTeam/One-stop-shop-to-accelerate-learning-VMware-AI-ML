@@ -32,18 +32,44 @@ For VI Admins, AI and ML open up many possibilities, such as:
 
 ### Free
 
+There are a number of free AI courses on [Coursera](https://www.coursera.org/). At the moment the most highly rated course is _[AI for Everyone](https://www.coursera.org/learn/ai-for-everyone)_.
+
 ### Paid
 
 ## What would you need to run AI/ML or even Large Language Models in your homelab, test lab at work, etc?
 
 ### GPU
 
-#### Nvidia
+Although some AI/ML workloads are capable of running without a GPU, having a GPU can significantly improve performance. AI/ML workloads can take advantage of common commodity GPUs from the likes of _AMD_ and _NVIDIA_. At present _NVIDIA_ GPUs are the most commonly used and supported.
 
-Probably the best resource for everything NVIDIA plus vSphere is this link https://docs.nvidia.com/ai-enterprise/deployment-guide-vmware/0.1.0/index.html
+#### NVIDIA
+
+Probably the best resource for everything NVIDIA plus vSphere is the _[VMware vSphere Deployment Guide](https://docs.nvidia.com/ai-enterprise/deployment-guide-vmware/0.1.0/index.html)_ from the _NVIDIA Docs Hub_.
 
 ### CPU, RAM, Storage
 
 
 ## Quickstart guide for a homelab (any caveats?) but still have fun
 https://williamlam.com/2023/05/google-coral-usb-edge-tpu-accelerator-on-esxi.html
+
+### Generative AI
+
+If you want to quickly get some generative AI tools installed in your homelab, [Wesley "TechNobo" Pyburn](https://github.com/TCNOco) has created some helpful PowerShell scripts. These scripts install common open-source AI/ML tools, automatically downloading and installing required components and dependencies.
+
+Let's look at two of those scripts, which install tools similiar to _ChatGPT_ and _MidJourney_.
+
+- **Vicuna**
+  - An open-source chatbot based on [LLaMa](https://en.wikipedia.org/wiki/LLaMA), which claims to achieve 90% quality of _ChatGPT GPT-4_.
+  - Can take advantage of _NVIDIA_ GPU and _AMD_ CPU (MacOS & Linux only), or can run CPU-only.
+  - To install on _Windows 10/11_, run the following command from an elevated (administrator) PowerShell prompt:
+    ```powershell
+    iex (irm vicuna.tc.ht)
+    ```
+- **AUTOMATIC1111**
+  - A web UI for _[Stable Diffusion](https://en.wikipedia.org/wiki/Stable_Diffusion)_, which allows you to generate images from text prompts.
+  - A GPU with 8GB VRAM or more is strongly recommended. Supports GPUs with 4GB of VRAM, and there are reports that some GPUs with 2GB of VRAM can work.
+  - To install on _Windows 10/11_, run the following command from an elevated (administrator) PowerShell prompt:
+    ```
+    iex (irm auto11.tc.ht)
+    ```
+  
