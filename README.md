@@ -63,13 +63,15 @@ Let's look at two of those scripts, which install tools similiar to _ChatGPT_ an
 - **Vicuna**
   - An open-source chatbot based on [LLaMa](https://en.wikipedia.org/wiki/LLaMA), which claims to achieve 90% quality of _ChatGPT GPT-4_.
   - Can take advantage of _NVIDIA_ GPU and _AMD_ GPU (MacOS & Linux only), or can run CPU-only.
+  - Requires 20 GB or more of storage if all models are downloaded.
   - To install on _Windows 10/11_, run the following command from an elevated (administrator) PowerShell prompt:
     ```powershell
     iex (irm vicuna.tc.ht)
     ```
 - **AUTOMATIC1111**
   - A web UI for _[Stable Diffusion](https://en.wikipedia.org/wiki/Stable_Diffusion)_, which allows you to generate images from text prompts.
-  - A GPU with 8GB VRAM or more is strongly recommended. Supports GPUs with 4GB of VRAM, and there are reports that some GPUs with 2GB of VRAM can work.
+  - Requires a CPU. A GPU with 8GB VRAM or more is strongly recommended. Supports GPUs with 4GB of VRAM, and there are reports that some GPUs with 2GB of VRAM can work.
+  - Requires 10 GB or more of storage.
   - To install on _Windows 10/11_, run the following command from an elevated (administrator) PowerShell prompt:
     ```
     iex (irm auto11.tc.ht)
