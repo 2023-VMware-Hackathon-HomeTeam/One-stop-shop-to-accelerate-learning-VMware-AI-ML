@@ -1,7 +1,8 @@
-# One-stop-shop-to-accelerate-learning-VMware-AI-ML
-![An ethereal Aritifial Intelligence being hovers over an open book](https://github.com/2023-VMware-Hackathon-HomeTeam/One-stop-shop-to-accelerate-learning-VMware-AI-ML/blob/main/aibookimage.jpeg?raw=true)[^1]
+# One-Stop Shop to Accelerate Learning of VMware and AI/ML
 
-One stop shop to accelerate your learning of VMware and AI/ML
+https://github.com/2023-VMware-Hackathon-HomeTeam/One-stop-shop-to-accelerate-learning-VMware-AI-ML/assets/8474263/139a000e-77e9-4ae5-9abc-994fe1d9c586
+
+[^1]
 
 ## Introduction
 This document is our product for the 2023 VMware Explore Hackathon. We wanted to create a resource that can help a Virtual Infrastructure Admin understand the current landscape of AI/ML and how they can learn more about it, while also including how to learn these technologies from the comfort of your home. We also want to explore how much you can use your homelab to help you learn VMware technology in this field, and if we can make it easier for you, we will!
@@ -77,4 +78,4 @@ Let's look at two of those scripts, which install tools similiar to _ChatGPT_ an
     iex (irm auto11.tc.ht)
     ```
   
-[^1]: Image generated via [Stable Diffusion Online](https://stablediffusionweb.com/).
+[^1]: Image generated via _[Stable Diffusion](https://github.com/Stability-AI/stablediffusion)_. Audio generated via _[FreeTTS](https://freetts.com/)_. Video generated via _[SadTalker](https://github.com/OpenTalker/SadTalker)_.
