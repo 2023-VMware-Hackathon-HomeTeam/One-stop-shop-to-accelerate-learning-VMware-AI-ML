@@ -35,7 +35,12 @@ For VI Admins, AI and ML open up many possibilities, such as:
 
 ### Free
 
-There are a number of free AI courses on [Coursera](https://www.coursera.org/). At the moment the most highly rated course is _[AI for Everyone](https://www.coursera.org/learn/ai-for-everyone)_.
+- Learn how [_VMware_ empowers AI/ML](https://www.vmware.com/products/vsphere/ai-ml.html), including a link to *free* _NVIDIA_-powered hands-on labs.
+- There are a number of free (and paid) AI courses on [Coursera](https://www.coursera.org/). At the moment the most highly rated course is _[AI for Everyone](https://www.coursera.org/learn/ai-for-everyone)_.
+- _Helsinki University_ offers a free _[Elements of AI](https://www.elementsofai.com/)_ online course.
+- News, courses, videos, toolkits and more are available from _[Learn with Google AI](https://ai.google/build/machine-learning/)_.
+- _edX_ offers free (and paid) courses in [Artificial Intelligence](https://www.edx.org/learn/artificial-intelligence) and [Machine Learning](https://www.edx.org/learn/machine-learning).
+- _Microsoft Azure_ offers free courses in [Azure AI Services & Azure Machine Learning](https://learn.microsoft.com/en-us/training/browse/?expanded=azure&products=ai-services%2Cazure-machine-learning).
 
 ### Paid
 
