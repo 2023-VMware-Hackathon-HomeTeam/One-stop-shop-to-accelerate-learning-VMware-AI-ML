@@ -76,7 +76,7 @@ Let's look at two of those scripts, which install tools similiar to _ChatGPT_ an
     ```
 - **AUTOMATIC1111**
   - A web UI for _[Stable Diffusion](https://en.wikipedia.org/wiki/Stable_Diffusion)_, which allows you to generate images from text prompts.
-  - Requires a CPU. A GPU with 8GB VRAM or more is strongly recommended. Supports GPUs with 4GB of VRAM, and there are reports that some GPUs with 2GB of VRAM can work.
+  - Requires a GPU. A GPU with 8GB VRAM or more is strongly recommended. Supports GPUs with 4GB of VRAM, and there are reports that some GPUs with 2GB of VRAM can work.
   - Requires 10 GB or more of storage.
   - To install on _Windows 10/11_, run the following command from an elevated (administrator) PowerShell prompt:
     ```
