@@ -58,7 +58,8 @@ Probably the best resource for everything NVIDIA plus vSphere is the _[VMware vS
 
 
 ## Quickstart guide for a homelab (any caveats?) but still have fun
-https://williamlam.com/2023/05/google-coral-usb-edge-tpu-accelerator-on-esxi.html
+
+If you are interested in working with _[TensorFlow](https://www.tensorflow.org/)_, [William Lam](https://github.com/lamw) has managed to connect a [Coral USB TPU Accelerator to ESXi](https://williamlam.com/2023/05/google-coral-usb-edge-tpu-accelerator-on-esxi.html).
 
 ### Generative AI
 
