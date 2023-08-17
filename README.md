@@ -1,6 +1,6 @@
 # One-Stop Shop to Accelerate Learning of VMware and AI/ML
 
-https://github.com/2023-VMware-Hackathon-HomeTeam/One-stop-shop-to-accelerate-learning-VMware-AI-ML/assets/8474263/139a000e-77e9-4ae5-9abc-994fe1d9c586
+https://github.com/2023-VMware-Hackathon-HomeTeam/One-stop-shop-to-accelerate-learning-VMware-AI-ML/assets/8474263/e645200c-cc57-40b8-b1c9-ccc76bb0d8fe
 
 [^1]
 
@@ -84,4 +84,4 @@ Let's look at two of those scripts, which install tools similiar to _ChatGPT_ an
     iex (irm auto11.tc.ht)
     ```
   
-[^1]: Image generated via _[Stable Diffusion](https://github.com/Stability-AI/stablediffusion)_. Audio generated via _[FreeTTS](https://freetts.com/)_. Video generated via _[SadTalker](https://github.com/OpenTalker/SadTalker)_.
+[^1]: Image generated via _[Stable Diffusion](https://github.com/Stability-AI/stablediffusion)_. Audio generated via _[ElevenLabs](https://elevenlabs.io/)_. Video generated via _[SadTalker](https://github.com/OpenTalker/SadTalker)_.
