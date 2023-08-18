@@ -83,22 +83,18 @@ For VI Admins, AI and ML open up many possibilities, such as:
 
 ## Where and how can you learn it?
 
-### Free
-
 - Learn how [_VMware_ empowers AI/ML](https://www.vmware.com/products/vsphere/ai-ml.html), including a link to **free** _NVIDIA_-powered hands-on labs.
-- There are a number of free (and paid) AI courses on [Coursera](https://www.coursera.org/). At the moment the most highly rated course is _[AI for Everyone](https://www.coursera.org/learn/ai-for-everyone)_.
+- There are a number of free and paid AI courses on [Coursera](https://www.coursera.org/). At the moment the most highly rated course is _[AI for Everyone](https://www.coursera.org/learn/ai-for-everyone)_.
 - _Helsinki University_ offers a free _[Elements of AI](https://www.elementsofai.com/)_ online course.
 - News, courses, videos, toolkits and more are available from _[Learn with Google AI](https://ai.google/build/machine-learning/)_.
-- _edX_ offers free (and paid) courses in [Artificial Intelligence](https://www.edx.org/learn/artificial-intelligence) and [Machine Learning](https://www.edx.org/learn/machine-learning).
+- _edX_ offers free and paid courses in [Artificial Intelligence](https://www.edx.org/learn/artificial-intelligence) and [Machine Learning](https://www.edx.org/learn/machine-learning).
 - _Microsoft_ offers free courses in [Azure AI Services & Azure Machine Learning](https://learn.microsoft.com/en-us/training/browse/?expanded=azure&products=ai-services%2Cazure-machine-learning).
-
-### Paid
 
 ## What would you need to run AI/ML or even Large Language Models in your lab?
 
 ### GPU
 
-Although some AI/ML workloads are capable of running without a GPU, having a GPU can significantly improve performance. AI/ML workloads can take advantage of common commodity GPUs from the likes of _AMD_ and _NVIDIA_. At present _NVIDIA_ GPUs are the most commonly used and supported.
+Although some AI/ML workloads are capable of running without a GPU, having a GPU can significantly improve performance. AI/ML workloads can take advantage of common commodity GPUs from the likes of _AMD_ and _NVIDIA_. At present _NVIDIA_ GPUs are the most commonly used and supported. The more GPU VRAM your video card has, the more performant and capable AI/ML can be. Ideally your GPU should have at least 8 GB of VRAM.
 
 #### NVIDIA
 
@@ -106,6 +102,11 @@ Probably the best resource for everything NVIDIA plus vSphere is the _[VMware vS
 
 ### CPU, RAM, Storage
 
+While AI/ML can run on a variety of hardware platforms, incluing single board computers (SBCs) like _Raspberry Pis_, you get more flexibility from an x86-64bit processor. Whether _Intel_ or _AMD_, your CPU should have at least 4 cores. An x86-64bit processor also provides access to PCI-Express lanes that allow your system to have one or more GPUs.
+
+When it comes to system RAM, try to have double the amount of GPU VRAM. For example, if your GPU has 8 GB VRAM, you should have at least 16 GB system RAM.
+
+Depending on how many LLMs, other models, or data sets you want to download or train, AI/ML can consume anywhere from hundreds of megabytes to petabyes or more. For a lab environment, having at least several hundred gigabytes should allow you to store and use a number of pre-trained LLMs. For AI/ML the more storage you can provide the better.
 
 ## Quickstart guide for a homelab (any caveats?) but still have fun
 
