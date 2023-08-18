@@ -44,7 +44,7 @@ For VI Admins, AI and ML open up many possibilities, such as:
 
 ### Paid
 
-## What would you need to run AI/ML or even Large Language Models in your homelab, test lab at work, etc?
+## What would you need to run AI/ML or even Large Language Models in your lab?
 
 ### GPU
 
@@ -83,5 +83,13 @@ Let's look at two of those scripts, which install tools similiar to _ChatGPT_ an
     ```
     iex (irm auto11.tc.ht)
     ```
-  
+
+## Diving Deeper - Where to go from here
+
+Here are some resources if you'd like to get a deeper understanding of AI/ML:
+
+- [Frank Denneman](https://twitter.com/frankdenneman) has a series of articles covering [machine learning with vSphere](https://frankdenneman.nl/category/machine-learning/). His article _[Basic Terminologies Large Language Models](https://frankdenneman.nl/2023/08/18/basic-terminologies-large-language-models/)_ is a good starting point.
+- _TensorFlow_ provides a [resource library with curated curriculms](https://www.tensorflow.org/resources/learn-ml) for machine learning.
+- Check with your local colleges and universities to see if they offer AI/ML disciplines within their computer science program.
+
 [^1]: Image generated via _[Stable Diffusion](https://github.com/Stability-AI/stablediffusion)_. Audio generated via _[ElevenLabs](https://elevenlabs.io/)_. Video generated via _[SadTalker](https://github.com/OpenTalker/SadTalker)_.
