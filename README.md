@@ -30,25 +30,23 @@ Why?
 
 Organizations are looking for ways to improve their current business
 
-	Outcome desired is to realize revenue faster on current offerings
+Outcome desired is to realize revenue faster on current offerings
 
-	Examples of how companies use AI/ML for in this area:
+Examples of how companies use AI/ML for in this area:
 
-		Identify operational improvements
-
-		Identify product improvements
+	Identify operational improvements
+	Identify product improvements
 	
 #2 Learn what their customers will want
 
 Organizations want to find net new revenue by identifying new ways/methods/products to sell
 
-	Outcome desired is to find net new revenue on net new offerings to build(invest)
+Outcome desired is to find net new revenue on net new offerings to build(invest)
 
-	Examples of how companies want to use AI/ML in this area:
+Examples of how companies want to use AI/ML in this area:
 
-		Predict what their customers will want
-
-		Look for patterns in customer behavior
+	Predict what their customers will want
+	Look for patterns in customer behavior
 	
 Why you, the vSphere administrator, and why your datacenter?
 
