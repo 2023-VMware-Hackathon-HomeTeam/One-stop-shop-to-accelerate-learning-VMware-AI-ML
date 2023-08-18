@@ -17,32 +17,49 @@ In time, you will likely see both AI and ML workloads in your datacenters. In ad
 
 
 What do businesses ask AI/ML systems to do?
+
 2 things: 
+
 	1. Speed - Improve their products faster
+
 	2. New Money - Learn what their customers will want
 
 Why?
+
 #1 Improve organizations products faster
+
 	- Organizations are looking for ways to improve their current business
+
 		○ Outcome desired is to realize revenue faster on current offerings
+
 	- Examples of how companies use AI/ML for in this area:
+
 		Identify operational improvements
+
 		Identify product improvements
 	
 #2 Learn what their customers will want
+
 	- Organizations want to find net new revenue by identifying new ways/methods/products to sell
+
 		○ Outcome desired is to find net new revenue on net new offerings to build(invest)
+
 	- Examples of how companies want to use AI/ML in this area:
+
 		Predict what their customers will want
+
 		Look for patterns in customer behavior
 	
 Why you, the vSphere administrator, and why your datacenter?
+
 These efforts have to be done on company proprietary data. Most organizations most sensitive information is placed only in company controlled datacenters and the AI/ML systems required to extract the outlined outcomes must be run in those same datacenters managed by company administrators.
 
 What does that mean to you?
+
 You're getting new workloads and you need to understand their workload profiles as AI and ML workloads have heavy datacenter demands. You must learn to manage these workloads just like you learned about managing databases on vSphere.
 
 So what do I need to know?
+
 AI and ML are two different workloads.
 ML systems are only one part of an overall AI platform.
 
