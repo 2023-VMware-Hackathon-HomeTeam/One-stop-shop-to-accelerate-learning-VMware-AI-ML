@@ -59,7 +59,7 @@ You're getting new workloads and you need to understand their workload profiles 
 AI and ML are two different workloads.
 ML systems are only one part of an overall AI platform.
 
-## What is AI/ML
+## What is AI/ML?
 
 _Artificial Intelligence (AI)_ refers to intelligent systems that can perform human-like tasks. Tasks such as problem-solving, decision-making, and understanding language. AI uses algorithms and processes data to do this. These systems can be narrow or general in scope. Narrow AI focuses on specific tasks, like image recognition or natural language processing. General AI aims to replicate human-like intelligence across a range of activities.
 
@@ -88,7 +88,7 @@ For VI Admins, AI and ML open up many possibilities, such as:
 - _edX_ offers free and paid courses in [Artificial Intelligence](https://www.edx.org/learn/artificial-intelligence) and [Machine Learning](https://www.edx.org/learn/machine-learning).
 - _Microsoft_ offers free courses in [Azure AI Services & Azure Machine Learning](https://learn.microsoft.com/en-us/training/browse/?expanded=azure&products=ai-services%2Cazure-machine-learning).
 
-## What would you need to run AI/ML or even Large Language Models in your lab?
+## What does your lab need to run AI/ML and Large Language Models (LLMs)?
 
 ### GPU
 
@@ -106,7 +106,7 @@ When it comes to system RAM, try to have double the amount of GPU VRAM. For exam
 
 Depending on how many LLMs, other models, or data sets you want to download or train, AI/ML can consume anywhere from hundreds of megabytes to petabyes or more. For a lab environment, having at least several hundred gigabytes should allow you to store and use a number of pre-trained LLMs. For AI/ML the more storage you can provide the better.
 
-## Quickstart guide for a homelab (any caveats?) but still have fun
+## Homelab Quickstart Guide
 
 If you are interested in working with _[TensorFlow](https://www.tensorflow.org/)_, [William Lam](https://github.com/lamw) has managed to connect a [Coral USB TPU Accelerator to ESXi](https://williamlam.com/2023/05/google-coral-usb-edge-tpu-accelerator-on-esxi.html).
 
@@ -133,7 +133,7 @@ Let's look at two of those scripts, which install tools similiar to _ChatGPT_ an
     iex (irm auto11.tc.ht)
     ```
 
-## Diving Deeper - Where to go from here
+## Diving Deeper - Where to go from here?
 
 Here are some resources if you'd like to get a deeper understanding of AI/ML:
 
