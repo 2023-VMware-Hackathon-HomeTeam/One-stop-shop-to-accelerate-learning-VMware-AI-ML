@@ -139,6 +139,7 @@ Here are some resources if you'd like to get a deeper understanding of AI/ML:
 
 - [Frank Denneman](https://twitter.com/frankdenneman) has a series of articles covering [machine learning with vSphere](https://frankdenneman.nl/category/machine-learning/). His article _[Basic Terminologies Large Language Models](https://frankdenneman.nl/2023/08/18/basic-terminologies-large-language-models/)_ is a good starting point.
 - _TensorFlow_ provides a [resource library with curated curriculms](https://www.tensorflow.org/resources/learn-ml) for machine learning.
+- Join an AI/ML challenge on _[Kaggle](https://www.kaggle.com/)_. New challengers can get started with the [Titanic - Machine Learning from Disaster](https://www.kaggle.com/c/titanic/overview) challenge.
 - Check with your local colleges and universities to see if they offer AI/ML disciplines within their computer science program.
 
 [^1]: Image generated via _[Stable Diffusion](https://github.com/Stability-AI/stablediffusion)_. Audio generated via _[ElevenLabs](https://elevenlabs.io/)_. Video generated via _[SadTalker](https://github.com/OpenTalker/SadTalker)_.
