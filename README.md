@@ -20,28 +20,28 @@ What do businesses ask AI/ML systems to do?
 
 Two common requests emerge: 
 
-1. Speed - Improve their products faster
+#1 Speed - Improve their products faster
 
-2. New Money - Learn what their customers will want
+#2 New Revenue - Learn what their customers will want
 
 Why?
 
-#1 Improve organizations products faster
+#1 Speed - Improve organizations products faster
 
 Organizations are looking for ways to improve their current business
 
-Outcome desired is to realize revenue faster on current offerings
+-> Outcome desired is to realize revenue faster on current offerings
 
 Examples of how companies use AI/ML for in this area:
 
 	Identify operational improvements
 	Identify product improvements
 	
-#2 Learn what their customers will want
+#2 New Revenue - Learn what their customers will want
 
 Organizations want to find net new revenue by identifying new ways/methods/products to sell
 
-Outcome desired is to find net new revenue on net new offerings to build(invest)
+-> Outcome desired is to find net new revenue on net new offerings to build(invest)
 
 Examples of how companies want to use AI/ML in this area:
 
