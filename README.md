@@ -34,8 +34,8 @@ Organizations are looking for ways to improve their current business
 
 Examples of how companies use AI/ML for in this area:
 
-     Identify operational improvements
-     Identify product improvements
+- Identify operational improvements
+- Identify product improvements
 	
 #2 New Revenue - Learn what their customers will want
 
@@ -45,8 +45,8 @@ Organizations want to find net new revenue by identifying new ways/methods/produ
 
 Examples of how companies want to use AI/ML in this area:
 
-     Predict what their customers will want
-     Look for patterns in customer behavior
+- Predict what their customers will want
+- Look for patterns in customer behavior
 	
 Why you, the vSphere administrator, and why your datacenter?
 
