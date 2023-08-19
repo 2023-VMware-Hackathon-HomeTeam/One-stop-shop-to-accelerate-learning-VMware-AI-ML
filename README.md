@@ -104,7 +104,7 @@ While AI/ML can run on a variety of hardware platforms, incluing single board co
 
 When it comes to system RAM, try to have double the amount of GPU VRAM. For example, if your GPU has 8 GB VRAM, you should have at least 16 GB system RAM.
 
-Depending on how many LLMs, other models, or data sets you want to download or train, AI/ML can consume anywhere from hundreds of megabytes to petabyes or more. For a lab environment, having at least several hundred gigabytes should allow you to store and use a number of pre-trained LLMs. For AI/ML the more storage you can provide the better. Like most workloads, AI/ML benefits from faster storage like NVMe-basd solid state drives.
+Depending on how many LLMs, other models, or data sets you want to download or train, AI/ML can consume anywhere from hundreds of megabytes to petabyes or more. For a lab environment, having at least several hundred gigabytes should allow you to store and use a number of pre-trained LLMs. For AI/ML the more storage you can provide the better. Like most workloads, AI/ML benefits from faster storage like NVMe-based solid state drives.
 
 ## Homelab Quickstart Guide
 
