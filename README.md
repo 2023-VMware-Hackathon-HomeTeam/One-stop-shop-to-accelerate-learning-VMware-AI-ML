@@ -1,8 +1,8 @@
 # One-Stop Shop to Accelerate Learning of VMware and AI/ML
 
-https://github.com/2023-VMware-Hackathon-HomeTeam/One-stop-shop-to-accelerate-learning-VMware-AI-ML/assets/8474263/e645200c-cc57-40b8-b1c9-ccc76bb0d8fe
-
-[^1]
+| Welcome[^1] |
+|---|
+| <video src="https://user-images.githubusercontent.com/8474263/261398731-e645200c-cc57-40b8-b1c9-ccc76bb0d8fe.mp4" type="video/mp4"> </video> |
 
 ## Introduction
 This document is our product for the 2023 VMware Explore Hackathon. We wanted to create a resource that can help a Virtual Infrastructure Admin understand the current landscape of AI/ML and how they can learn more about it, while also including how to learn these technologies from the comfort of your home. We also want to explore how much you can use your homelab to help you learn VMware technology in this field, and if we can make it easier for you, we will!
