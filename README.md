@@ -1,8 +1,8 @@
 # One-Stop Shop to Accelerate Learning of VMware and AI/ML
-
 | Welcome[^1] |
 |---|
-| <video src="https://user-images.githubusercontent.com/8474263/261398731-e645200c-cc57-40b8-b1c9-ccc76bb0d8fe.mp4" type="video/mp4"> </video> |
+| <video src="https://user-images.githubusercontent.com/8474263/261398731-e645200c-cc57-40b8-b1c9-ccc76bb0d8fe.mp4" type="video/mp4"> </video>|
+
 
 ## Introduction
 This document is our product for the 2023 VMware Explore Hackathon. We wanted to create a resource that can help a Virtual Infrastructure Admin understand the current landscape of AI/ML and how they can learn more about it, while also including how to learn these technologies from the comfort of your home. We also want to explore how much you can use your homelab to help you learn VMware technology in this field, and if we can make it easier for you, we will!
@@ -18,33 +18,21 @@ In time, you will likely see both AI and ML workloads in your datacenters. In ad
 ### What do businesses ask AI/ML systems to do?
 
 Two common requests emerge: 
-
-1. **Speed** - Improve their products faster
-2. **New Revenue** - Learn what their customers will want
+- Help them to improve their products faster.
+- Learn what their customers will want in future products or features.
 
 ### Why?
 
-1. **Speed** - Improve organizations products faster
+Organizations are looking for ways to improve their current business. The outcome desired is to realize revenue faster on current offerings.
+Examples of how companies use AI/ML in this area:
+- Identify operational improvements.
+- Identify product improvements.
 
-   Organizations are looking for ways to improve their current business
+Organizations want to find net new revenue by identifying new ways/methods/products to sell. The outcome desired is to find net new revenue on net new offerings to build(invest). 
+Examples of how companies want to use AI/ML in this area:
 
-   > Outcome desired is to realize revenue faster on current offerings
-
-   Examples of how companies use AI/ML in this area:
-
-   - Identify operational improvements
-   - Identify product improvements
-	
-2. **New Revenue** - Learn what their customers will want
-
-   Organizations want to find net new revenue by identifying new ways/methods/products to sell
-
-   > Outcome desired is to find net new revenue on net new offerings to build(invest)
-
-   Examples of how companies want to use AI/ML in this area:
-
-   - Predict what their customers will want
-   - Look for patterns in customer behavior
+- Predict what their customers will want to increase their satisfaction with future products.
+- Look for patterns in customer behavior that could open up new market opportunities.
 	
 ### Why you, the vSphere administrator, and why your datacenter?
 
@@ -77,7 +65,7 @@ _Supervised learning_ involves training the system with labeled data. _Unsupervi
 
 There are many areas of study within Artificial Intelligence. Taking some definitions from "How AI Works" by Ronald Kneusel:  
 
-![image](https://github.com/2023-VMware-Hackathon-HomeTeam/One-stop-shop-to-accelerate-learning-VMware-AI-ML/assets/16085267/d0de1662-05b6-40d8-97f5-807d39476550)
+![image](https://github.com/2023-VMware-Hackathon-HomeTeam/One-stop-shop-to-accelerate-learning-VMware-AI-ML/assets/16085267/d0de1662-05b6-40d8-97f5-807d39476550) 
 
 "Machine learning builds models from data. For us, a model is an abstract notion of something that accepts inputs and generates outputs where the inputs and outputs are related in some meaningful way. The primary goal of machine learning is to condition a model using known data so that the model produces meaningful output when given unknown data. 
 
@@ -85,12 +73,12 @@ _Deep learning_ uses large models of the kind previously too big to make useful.
 
 "_Generative AI_ is an umbrella term for models that create novel output, either independently (randomly) or based on a prompt supplied by the user. Generative models do not produce labels but text, images, or even video. Under the hood, generative models are neural networks built from the same essential components.  
 
-(the book covers) three kinds of generative AI models: generative adversarial networks (GANs), diffusion models, and large language models (LLMs)."  
+(The book covers) three kinds of generative AI models: generative adversarial networks (GANs), diffusion models, and large language models (LLMs)."  
 
 "_Large language models (LLMs)_ accept as input a text prompt supplied by a user. They then generate output text, word by word (really token by token),
 using the prompt and all previously generated words as a guide. In effect, LLMs only design goal is to be very good at predicting the next word in a
-sequence of words initiated by the input prompt. That’s all they were trained to do. However, that is not all that they learned to do. The reason why AI
-researchers are so excited by LLMs is that somewhere along the way, while learning to be expert text generators, LLMs also learned a host of emergent
+sequence of words initiated by the input prompt. That’s all they were trained to do. However, that is not all that they learned to do. AI
+researchers are so excited by LLMs because while learning to be expert text generators, LLMs also learned a host of emergent
 abilities, including question answering, mathematical reasoning, high-quality computer programming, and logical reasoning."  
 
 "Future historians might point to the Fall 2022 release of OpenAI’s ChatGPT large language model as the dawn of true AI."  
@@ -106,23 +94,23 @@ Modern processing capabilities have made LLMs practical in 2023, and humanity's 
 - News, courses, videos, toolkits and more are available from _[Learn with Google AI](https://ai.google/build/machine-learning/)_.  
 - _edX_ offers free and paid courses in [Artificial Intelligence](https://www.edx.org/learn/artificial-intelligence) and [Machine Learning](https://www.edx.org/learn/machine-learning).  
 - _Microsoft_ offers free courses in [Azure AI Services & Azure Machine Learning](https://learn.microsoft.com/en-us/training/browse/?expanded=azure&products=ai-services%2Cazure-machine-learning).  
-- Purchase a book from a person involved in this field. [How AI Works](https://nostarch.com/how-ai-works) is meant to be a general introduction to AI, ML and LLMs without complicated math, but still giving you valuable context.   
+- Purchase a book from a person involved in this field. [How AI Works](https://nostarch.com/how-ai-works) is meant to be a general introduction to AI, ML and LLMs without complicated math but still giving you valuable context.   
 
-## I keep hearing about HuggingFace, what is it?
+## I keep hearing about HuggingFace; what is it?
 
-HuggingFace is "the platform where the machine learning community collaborates on models, datasets, and applications.". Importantly, this is where people upload their [models](https://huggingface.co/models), their training [datasets](https://huggingface.co/datasets), where projects are categorized in [spaces](https://huggingface.co/spaces). One most interesting link is the [the LLM leaderboard](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard) where the speed of development is apparent.
+HuggingFace is "the platform where the machine learning community collaborates on models, datasets, and applications.". Importantly, this is where people upload their [models](https://huggingface.co/models), their training [datasets](https://huggingface.co/datasets), where projects are categorized in [spaces](https://huggingface.co/spaces). One of the most interesting links is [the LLM leaderboard](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard), where the speed of development is apparent.
 
-VMware has its own page in HuggingFace webpage with models and training sets that will offer you "Domain adapting language models to VMware-specific use cases" - you can find it here: 
+VMware has its own page on the HuggingFace webpage with models and training sets that will offer you "Domain adapting language models to VMware-specific use cases" - you can find it here: 
 
 https://huggingface.co/VMware  
 
-You can see in this [video by Youtube channel Prompt Engineering](https://youtu.be/N-qaMCwqRHI) how the website is browsed and how some features are used to test a new, more efficient model.  
+You can see in this [video by the Youtube channel Prompt Engineering](https://youtu.be/N-qaMCwqRHI) how the website is browsed and how some features are used to test a new, more efficient model.  
 
 ## I keep hearing about MidJourney, Runway, ...
 
 [MidJourney](https://www.midjourney.com/) is known for generating images using AI. From [Wikipedia](https://en.wikipedia.org/wiki/Midjourney): "Midjourney is a generative artificial intelligence program and service created and hosted by San Francisco-based independent research lab Midjourney, Inc. Midjourney generates images from natural language descriptions, called "prompts", similar to OpenAI's DALL-E and Stable Diffusion."  
 
-[Runway Gen2](https://research.runwayml.com/gen2) is "A multimodal AI system that can generate novel videos with text, images or video clips". Combined with MidJourney, using it's Image 2 Video capabilities, you can generate movies completely in these tools such as [this one](https://twitter.com/acstle/status/1684033395205230592?s=20 )
+[Runway Gen2](https://research.runwayml.com/gen2) is "A multimodal AI system that can generate novel videos with text, images or video clips". Combined with MidJourney, using its Image 2 Video capabilities, you can generate movies completely in these tools such as [this one](https://twitter.com/acstle/status/1684033395205230592?s=20 )
 
 ## What does your lab need to run AI/ML and Large Language Models (LLMs)?
 
@@ -146,7 +134,7 @@ Depending on how many LLMs, other models, or data sets you want to download or t
 
 ### Coral TPU  
 
-If you are interested in working with _[TensorFlow](https://www.tensorflow.org/)_, [William Lam](https://github.com/lamw) has managed to connect a [Coral USB TPU Accelerator to ESXi](https://williamlam.com/2023/05/google-coral-usb-edge-tpu-accelerator-on-esxi.html). This isn't cutting edge technology but it's a very affordable TPU that you can get from Amazon and many other retailers; we brought one to the Hackathon if you want to see it! https://coral.ai/products/accelerator 
+If you are interested in working with _[TensorFlow](https://www.tensorflow.org/)_, [William Lam](https://github.com/lamw) has managed to connect a [Coral USB TPU Accelerator to ESXi](https://williamlam.com/2023/05/google-coral-usb-edge-tpu-accelerator-on-esxi.html). This isn't cutting edge technology, but it's a very affordable TPU that you can get from Amazon and many other retailers; we brought one to the Hackathon if you want to see it! https://coral.ai/products/accelerator 
   
 
 ### Generative AI
@@ -178,13 +166,13 @@ Recently we have seen demo use cases like https://towardsdatascience.com/distrib
 
 ![image](https://github.com/2023-VMware-Hackathon-HomeTeam/One-stop-shop-to-accelerate-learning-VMware-AI-ML/assets/16085267/c1bde63b-f548-47e5-8958-5c90c07776fc)
 
-Also, here's a tutorial on running the open source LLaMa 2 on Windows, Linux or Mac, locally https://replicate.com/blog/run-llama-locally  
+Also, here's a tutorial on running the open source LLaMa 2 on Windows, Linux or Mac locally https://replicate.com/blog/run-llama-locally  
 
-### I've heard about LLaMa, what is it?
+### I've heard about LLaMa; what is it?
 
 [LLaMa](https://ai.meta.com/llama/) is an open source LLM available for free for research and commercial use. It seems to be one of the most popular options for learning and deploying in enterprises.  
 
-This beginner's guide is very good at explaining the concepts at a high level: https://agi-sphere.com/llama-guide/ In particular this table is useful
+This beginner's guide is very good at explaining the concepts at a high level: https://agi-sphere.com/llama-guide/ In particular, this table is useful
 ![image](https://github.com/2023-VMware-Hackathon-HomeTeam/One-stop-shop-to-accelerate-learning-VMware-AI-ML/assets/16085267/b11428a8-a67b-419d-ac5c-c994f1158227)
 
 
@@ -198,13 +186,13 @@ Here are some resources if you'd like to get a deeper understanding of AI/ML:
 
 ## Show me what's out there
 
-We wanted to include interesting links that may spur your interest, with a little commentary and dates so you can see how fast the space is changing. Several of these will be from Twitter/X; this is indeed a good social network for this topic.
+We wanted to include interesting links that may spur your interest, with a little commentary and dates, so you can see how fast the space is changing. Several of these will be from Twitter/X; this is indeed a good social network for this topic.
 
 | Date | Link | Comment |
 | --- | --- | --- |
 | June 2023 | https://twitter.com/mreferre/status/1670752054334181376?s=20 | Massimo dives deeper into all the technology needed to do LLMs from scratch |
 | July 2023 | https://twitter.com/alvinfoo/status/1683434918070845440?s=20 | A mashup of Barbie and Oppenheimer movies created solely with AI tools |
-| July 2023 | https://twitter.com/Kyrannio/status/1682542654675111936 | A music video where images, video and music where created using AI tech |
+| July 2023 | https://twitter.com/Kyrannio/status/1682542654675111936 | A music video where images, video and music were created using AI tech |
 | July 2023 | https://twitter.com/svpino/status/1684967487950004231?t=xTQO75bwSLz1p5T4ZQa8yg&s=19 | Some LLMs are being aimed at helping developer productivity |
 | July 2023 | https://the-decoder.com/text-to-video-is-improving-rapidly-here-are-some-examples-created-with-runway-gen-2/ | Runway Gen2 tutorial |
 | July 2023 | https://www.forbes.com/sites/steveandriole/2023/07/26/llama-chatgpt-bard-co-pilot--all-the-rest--how-large-language-models-will-become-huge-cloud-services-with-massive-ecosystems/amp/ | Forbes evaluates LLMs |
