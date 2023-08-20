@@ -50,6 +50,12 @@ Two common requests emerge:
 
 These efforts have to be done on company proprietary data. At most organizations, the most sensitive information is placed only in company controlled datacenters, and the AI/ML systems required to extract the outlined outcomes must be run in those same datacenters managed by company administrators.
 
+For VI Admins, AI and ML open up many possibilities, such as:
+
+- Optimizing complex processes
+- Automating routine tasks
+- Improving data analytics
+
 ### What does that mean to you?
 
 You're getting new workloads, and you need to understand their workload profiles, as AI and ML workloads have heavy datacenter demands. You must learn to manage these workloads just like you learned about managing databases on vSphere. 
@@ -60,7 +66,7 @@ The toolsets you use to manage your workloads could introduce features that cons
 AI and ML are two different workloads.
 ML systems are only one part of an overall AI platform.
 
-## What is AI/ML?
+## What is AI/ML? What is Deep Learning, Generative AI, and what are LLMs?
 
 _Artificial Intelligence (AI)_ refers to intelligent systems that can perform human-like tasks. Tasks such as problem-solving, decision-making, and understanding language. AI uses algorithms and processes data to do this. These systems can be narrow or general in scope. Narrow AI focuses on specific tasks, like image recognition or natural language processing. General AI aims to replicate human-like intelligence across a range of activities.
 
@@ -74,11 +80,27 @@ There are different types of ML, each catering to specific tasks and goals:
 
 _Supervised learning_ involves training the system with labeled data. _Unsupervised learning_ deals with unlabeled data to find patterns and groupings. _Reinforcement learning_ focuses on training the system through trial and error. Rewarding successful actions and penalizing unsuccessful ones.
 
-For VI Admins, AI and ML open up many possibilities, such as:
+There are many areas of study within Artificial Intelligence. Taking some definitions from "How AI Works" by Ronald Kneusel:  
 
-- Optimizing complex processes
-- Automating routine tasks
-- Improving data analytics
+![image](https://github.com/2023-VMware-Hackathon-HomeTeam/One-stop-shop-to-accelerate-learning-VMware-AI-ML/assets/16085267/d0de1662-05b6-40d8-97f5-807d39476550)
+
+"Machine learning builds models from data. For us, a model is an abstract notion of something that accepts inputs and generates outputs where the inputs and outputs are related in some meaningful way. The primary goal of machine learning is to condition a model using known data so that the model produces meaningful output when given unknown data. 
+
+_Deep learning_ uses large models of the kind previously too big to make useful. ... there’s no strict definition of deep learning other than involving neural networks with many layers."  
+
+"_Generative AI_ is an umbrella term for models that create novel output, either independently (randomly) or based on a prompt supplied by the user. Generative models do not produce labels but text, images, or even video. Under the hood, generative models are neural networks built from the same essential components.  
+
+(the book covers) three kinds of generative AI models: generative adversarial networks (GANs), diffusion models, and large language models (LLMs)."  
+
+"_Large language models (LLMs)_ accept as input a text prompt supplied by a user. They then generate output text, word by word (really token by token),
+using the prompt and all previously generated words as a guide. In effect, LLMs only design goal is to be very good at predicting the next word in a
+sequence of words initiated by the input prompt. That’s all they were trained to do. However, that is not all that they learned to do. The reason why AI
+researchers are so excited by LLMs is that somewhere along the way, while learning to be expert text generators, LLMs also learned a host of emergent
+abilities, including question answering, mathematical reasoning, high-quality computer programming, and logical reasoning."  
+
+"Future historians might point to the Fall 2022 release of OpenAI’s ChatGPT large language model as the dawn of true AI."  
+
+Modern processing capabilities have made LLMs practical in 2023, and humanity's imagination has made it the most discussed technology of this year.
 
 ## Where and how can you learn it?
 
