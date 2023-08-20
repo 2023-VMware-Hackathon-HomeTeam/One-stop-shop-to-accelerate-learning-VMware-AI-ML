@@ -99,13 +99,14 @@ Modern processing capabilities have made LLMs practical in 2023, and humanity's 
 
 ## Where and how can you learn it?
 
-- Learn how [_VMware_ empowers AI/ML](https://www.vmware.com/products/vsphere/ai-ml.html), including a link to **free** _NVIDIA_-powered hands-on labs.
-- There are several free and paid AI courses on [Coursera](https://www.coursera.org/). At the moment, the most highly rated course is _[AI for Everyone](https://www.coursera.org/learn/ai-for-everyone)_.
-- _Helsinki University_ offers a free _[Elements of AI](https://www.elementsofai.com/)_ online course.
-- News, courses, videos, toolkits and more are available from _[Learn with Google AI](https://ai.google/build/machine-learning/)_.
-- _edX_ offers free and paid courses in [Artificial Intelligence](https://www.edx.org/learn/artificial-intelligence) and [Machine Learning](https://www.edx.org/learn/machine-learning).
-- _Microsoft_ offers free courses in [Azure AI Services & Azure Machine Learning](https://learn.microsoft.com/en-us/training/browse/?expanded=azure&products=ai-services%2Cazure-machine-learning).
-- Purchase a book from a person involved in this field. [How AI Works](https://nostarch.com/how-ai-works) is meant to be a general introduction to AI, ML and LLMs without complicated math, but still giving you valuable context.  
+- Learn how [_VMware_ empowers AI/ML](https://www.vmware.com/products/vsphere/ai-ml.html), including a link to **free** _NVIDIA_-powered hands-on labs.  
+- - [Frank Denneman](https://twitter.com/frankdenneman) has a series of articles covering [machine learning with vSphere](https://frankdenneman.nl/category/machine-learning/). His article _[Basic Terminologies Large Language Models](https://frankdenneman.nl/2023/08/18/basic-terminologies-large-language-models/)_ is a great reference and should be bookmarked!  
+- There are several free and paid AI courses on [Coursera](https://www.coursera.org/). At the moment, the most highly rated course is _[AI for Everyone](https://www.coursera.org/learn/ai-for-everyone)_.  
+- _Helsinki University_ offers a free _[Elements of AI](https://www.elementsofai.com/)_ online course.  
+- News, courses, videos, toolkits and more are available from _[Learn with Google AI](https://ai.google/build/machine-learning/)_.  
+- _edX_ offers free and paid courses in [Artificial Intelligence](https://www.edx.org/learn/artificial-intelligence) and [Machine Learning](https://www.edx.org/learn/machine-learning).  
+- _Microsoft_ offers free courses in [Azure AI Services & Azure Machine Learning](https://learn.microsoft.com/en-us/training/browse/?expanded=azure&products=ai-services%2Cazure-machine-learning).  
+- Purchase a book from a person involved in this field. [How AI Works](https://nostarch.com/how-ai-works) is meant to be a general introduction to AI, ML and LLMs without complicated math, but still giving you valuable context.   
 
 ## I keep hearing about HuggingFace, what is it?
 
@@ -114,6 +115,12 @@ HuggingFace is "the platform where the machine learning community collaborates o
 VMware has its own page in HuggingFace webpage with models and training sets that will offer you "Domain adapting language models to VMware-specific use cases" - you can find it here: 
 
 https://huggingface.co/VMware  
+
+## I keep hearing about MidJourney, Runway, ...
+
+[MidJourney](https://www.midjourney.com/) is known for generating images using AI. From [Wikipedia](https://en.wikipedia.org/wiki/Midjourney): "Midjourney is a generative artificial intelligence program and service created and hosted by San Francisco-based independent research lab Midjourney, Inc. Midjourney generates images from natural language descriptions, called "prompts", similar to OpenAI's DALL-E and Stable Diffusion."  
+
+[Runway Gen2](https://research.runwayml.com/gen2) is "A multimodal AI system that can generate novel videos with text, images or video clips." . Combined with MidJourney, using it's Image 2 Video capabilities, you can generate movies completely in these tools such as https://twitter.com/acstle/status/1684033395205230592?s=20 
 
 ## What does your lab need to run AI/ML and Large Language Models (LLMs)?
 
@@ -135,7 +142,10 @@ Depending on how many LLMs, other models, or data sets you want to download or t
 
 ## Homelab Quickstart Guide
 
-If you are interested in working with _[TensorFlow](https://www.tensorflow.org/)_, [William Lam](https://github.com/lamw) has managed to connect a [Coral USB TPU Accelerator to ESXi](https://williamlam.com/2023/05/google-coral-usb-edge-tpu-accelerator-on-esxi.html). This isn't cutting edge technology but it's a very affordable TPU that you can get from Amazon and many other retailers; we brought one to the Hackathon https://coral.ai/products/accelerator 
+### Coral TPU  
+
+If you are interested in working with _[TensorFlow](https://www.tensorflow.org/)_, [William Lam](https://github.com/lamw) has managed to connect a [Coral USB TPU Accelerator to ESXi](https://williamlam.com/2023/05/google-coral-usb-edge-tpu-accelerator-on-esxi.html). This isn't cutting edge technology but it's a very affordable TPU that you can get from Amazon and many other retailers; we brought one to the Hackathon if you want to see it! https://coral.ai/products/accelerator 
+  
 
 ### Generative AI
 
@@ -160,13 +170,49 @@ Let's look at two of those scripts, which install tools similar to _ChatGPT_ and
     iex (irm auto11.tc.ht)
     ```
 
+### But I don't have the hardware...  
+
+Recently we have seen demo use cases like https://towardsdatascience.com/distributed-llama-2-on-cpus-via-llama-cpp-pyspark-65736e9f466d that allow to run on CPU with very small hardware requirements. The projects are not the same as an enterprise use case, but they can still help solidify concepts
+
+![image](https://github.com/2023-VMware-Hackathon-HomeTeam/One-stop-shop-to-accelerate-learning-VMware-AI-ML/assets/16085267/c1bde63b-f548-47e5-8958-5c90c07776fc)
+
+Also, here's a tutorial on running the open source LLaMa 2 on Windows, Linux or Mac, locally https://replicate.com/blog/run-llama-locally  
+
+### I've heard about LLaMa, what is it?
+
+[LLaMa](https://ai.meta.com/llama/) is an open source LLM available for free for research and commercial use. It seems to be one of the most popular options for learning and deploying in enterprises.  
+
+This beginner's guide is very good at explaining the concepts at a high level: https://agi-sphere.com/llama-guide/ In particular this table is useful
+![image](https://github.com/2023-VMware-Hackathon-HomeTeam/One-stop-shop-to-accelerate-learning-VMware-AI-ML/assets/16085267/b11428a8-a67b-419d-ac5c-c994f1158227)
+
+
 ## Diving Deeper - Where to go from here?
 
 Here are some resources if you'd like to get a deeper understanding of AI/ML:
 
-- [Frank Denneman](https://twitter.com/frankdenneman) has a series of articles covering [machine learning with vSphere](https://frankdenneman.nl/category/machine-learning/). His article _[Basic Terminologies Large Language Models](https://frankdenneman.nl/2023/08/18/basic-terminologies-large-language-models/)_ is a good starting point
 - _TensorFlow_ provides a [resource library with curated curriculums](https://www.tensorflow.org/resources/learn-ml) for machine learning.
 - Join an AI/ML challenge on _[Kaggle](https://www.kaggle.com/)_. New challengers can get started with the [Titanic - Machine Learning from Disaster](https://www.kaggle.com/c/titanic/overview) challenge
-- Check with your local colleges and universities to see if they offer AI/ML disciplines within their computer science program
+- Check with your local colleges and universities to see if they offer AI/ML disciplines within their computer science program  
+
+## Show me what's out there
+
+We wanted to include interesting links that may spur your interest, with a little commentary and dates so you can see how fast the space is changing. Several of these will be from Twitter/X; this is indeed a good social network for this topic.
+
+| Date | Link | Comment |
+| --- | --- | --- |
+| June 2023 | https://twitter.com/mreferre/status/1670752054334181376?s=20 | Massimo dives deeper into all the technology needed to do LLMs from scratch |
+| July 2023 | https://twitter.com/alvinfoo/status/1683434918070845440?s=20 | A mashup of Barbie and Oppenheimer movies created solely with AI tools |
+| July 2023 | https://twitter.com/Kyrannio/status/1682542654675111936 | A music video where images, video and music where created using AI tech |
+| July 2023 | https://twitter.com/svpino/status/1684967487950004231?t=xTQO75bwSLz1p5T4ZQa8yg&s=19 | Some LLMs are being aimed at helping developer productivity |
+| July 2023 | https://the-decoder.com/text-to-video-is-improving-rapidly-here-are-some-examples-created-with-runway-gen-2/ | Runway Gen2 tutorial |
+| July 2023 | https://www.forbes.com/sites/steveandriole/2023/07/26/llama-chatgpt-bard-co-pilot--all-the-rest--how-large-language-models-will-become-huge-cloud-services-with-massive-ecosystems/amp/ | Forbes evaluates LLMs |
+| Aug 2023 | https://www.forbes.com/sites/billfrist/2023/08/01/how-generative-ai--a-technology-catalyst--is-revolutionizing-healthcare/amp/ | Forbes evaluates the impact of AI related technologies on Healthcare |
+| Aug 2023 | https://decrypt.co/150861/nvidia-ai-image-generator-floppy-disk-4-minutes?amp=1 | Nvidia AI Image Personalization Method Fits on a Floppy Disk and Takes 4 Minutes to Train |
+| Aug 2023 | https://the-decoder.com/chatgpt-gets-several-new-features-including-multi-document-chat/ | New features in ChatGPT, including uploading multiple documents to ask questions on |
+
+
+
+
+
 
 [^1]: Image generated via _[Stable Diffusion](https://github.com/Stability-AI/stablediffusion)_. Audio generated via _[ElevenLabs](https://elevenlabs.io/)_. Video generated via _[SadTalker](https://github.com/OpenTalker/SadTalker)_
