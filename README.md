@@ -100,7 +100,7 @@ Modern processing capabilities have made LLMs practical in 2023, and humanity's 
 ## Where and how can you learn it?
 
 - Learn how [_VMware_ empowers AI/ML](https://www.vmware.com/products/vsphere/ai-ml.html), including a link to **free** _NVIDIA_-powered hands-on labs.  
-- - [Frank Denneman](https://twitter.com/frankdenneman) has a series of articles covering [machine learning with vSphere](https://frankdenneman.nl/category/machine-learning/). His article _[Basic Terminologies Large Language Models](https://frankdenneman.nl/2023/08/18/basic-terminologies-large-language-models/)_ is a great reference and should be bookmarked!  
+- [Frank Denneman](https://twitter.com/frankdenneman) has a series of articles covering [machine learning with vSphere](https://frankdenneman.nl/category/machine-learning/). His article _[Basic Terminologies Large Language Models](https://frankdenneman.nl/2023/08/18/basic-terminologies-large-language-models/)_ is a great reference and should be bookmarked!  
 - There are several free and paid AI courses on [Coursera](https://www.coursera.org/). At the moment, the most highly rated course is _[AI for Everyone](https://www.coursera.org/learn/ai-for-everyone)_.  
 - _Helsinki University_ offers a free _[Elements of AI](https://www.elementsofai.com/)_ online course.  
 - News, courses, videos, toolkits and more are available from _[Learn with Google AI](https://ai.google/build/machine-learning/)_.  
