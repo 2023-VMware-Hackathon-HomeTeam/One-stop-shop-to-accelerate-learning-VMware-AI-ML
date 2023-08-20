@@ -59,14 +59,10 @@ For VI Admins, AI and ML open up many possibilities, such as:
 ### What does that mean to you?
 
 You're getting new workloads, and you need to understand their workload profiles, as AI and ML workloads have heavy datacenter demands. You must learn to manage these workloads just like you learned about managing databases on vSphere. 
-The toolsets you use to manage your workloads could introduce features that consume AI and ML that you will need to understand, for example, to drive the automation of workload management.
+The toolsets you use to manage your workloads could introduce features that consume AI and ML that you will need to understand, for example, to drive the automation of workload management.  
 
-### So what do I need to know?
 
-AI and ML are two different workloads.
-ML systems are only one part of an overall AI platform.
-
-## What is AI/ML? What is Deep Learning, Generative AI, and what are LLMs?
+## Definitions: what is AI? What is ML? What is Deep Learning, Generative AI, and what are LLMs?
 
 _Artificial Intelligence (AI)_ refers to intelligent systems that can perform human-like tasks. Tasks such as problem-solving, decision-making, and understanding language. AI uses algorithms and processes data to do this. These systems can be narrow or general in scope. Narrow AI focuses on specific tasks, like image recognition or natural language processing. General AI aims to replicate human-like intelligence across a range of activities.
 
