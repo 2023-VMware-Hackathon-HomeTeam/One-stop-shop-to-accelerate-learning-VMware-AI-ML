@@ -61,7 +61,6 @@ For VI Admins, AI and ML open up many possibilities, such as:
 You're getting new workloads, and you need to understand their workload profiles, as AI and ML workloads have heavy datacenter demands. You must learn to manage these workloads just like you learned about managing databases on vSphere. 
 The toolsets you use to manage your workloads could introduce features that consume AI and ML that you will need to understand, for example, to drive the automation of workload management.  
 
-
 ## Definitions: what is AI? What is ML? What is Deep Learning, Generative AI, and what are LLMs?
 
 _Artificial Intelligence (AI)_ refers to intelligent systems that can perform human-like tasks. Tasks such as problem-solving, decision-making, and understanding language. AI uses algorithms and processes data to do this. These systems can be narrow or general in scope. Narrow AI focuses on specific tasks, like image recognition or natural language processing. General AI aims to replicate human-like intelligence across a range of activities.
@@ -107,6 +106,14 @@ Modern processing capabilities have made LLMs practical in 2023, and humanity's 
 - _edX_ offers free and paid courses in [Artificial Intelligence](https://www.edx.org/learn/artificial-intelligence) and [Machine Learning](https://www.edx.org/learn/machine-learning).
 - _Microsoft_ offers free courses in [Azure AI Services & Azure Machine Learning](https://learn.microsoft.com/en-us/training/browse/?expanded=azure&products=ai-services%2Cazure-machine-learning).
 - Purchase a book from a person involved in this field. [How AI Works](https://nostarch.com/how-ai-works) is meant to be a general introduction to AI, ML and LLMs without complicated math, but still giving you valuable context.  
+
+## I keep hearing about HuggingFace, what is it?
+
+You might hear about HuggingFace as you dive deeper into these topics. HuggingFace is "the platform where the machine learning community collaborates on models, datasets, and applications.". Importantly, this is where people upload their [models](https://huggingface.co/models), their training [datasets](https://huggingface.co/datasets), where projects are categorized in [spaces](https://huggingface.co/spaces). One most interesting link - the LLM leaderboard:
+
+https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard
+
+VMware has its own page in HuggingFace webpage with models and training sets that will offer you "Domain adapting language models to VMware-specific use cases"  
 
 ## What does your lab need to run AI/ML and Large Language Models (LLMs)?
 
