@@ -135,7 +135,7 @@ Depending on how many LLMs, other models, or data sets you want to download or t
 
 ## Homelab Quickstart Guide
 
-If you are interested in working with _[TensorFlow](https://www.tensorflow.org/)_, [William Lam](https://github.com/lamw) has managed to connect a [Coral USB TPU Accelerator to ESXi](https://williamlam.com/2023/05/google-coral-usb-edge-tpu-accelerator-on-esxi.html).
+If you are interested in working with _[TensorFlow](https://www.tensorflow.org/)_, [William Lam](https://github.com/lamw) has managed to connect a [Coral USB TPU Accelerator to ESXi](https://williamlam.com/2023/05/google-coral-usb-edge-tpu-accelerator-on-esxi.html). This isn't cutting edge technology but it's a very affordable TPU that you can get from Amazon and many other retailers; we brought one to the Hackathon https://coral.ai/products/accelerator 
 
 ### Generative AI
 
