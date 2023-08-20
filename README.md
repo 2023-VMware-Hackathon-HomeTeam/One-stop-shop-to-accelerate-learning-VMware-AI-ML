@@ -116,11 +116,13 @@ VMware has its own page in HuggingFace webpage with models and training sets tha
 
 https://huggingface.co/VMware  
 
+You can see in this [video by Youtube channel Prompt Engineering](https://youtu.be/N-qaMCwqRHI) how the website is browsed and how some features are used to test a new, more efficient model.  
+
 ## I keep hearing about MidJourney, Runway, ...
 
 [MidJourney](https://www.midjourney.com/) is known for generating images using AI. From [Wikipedia](https://en.wikipedia.org/wiki/Midjourney): "Midjourney is a generative artificial intelligence program and service created and hosted by San Francisco-based independent research lab Midjourney, Inc. Midjourney generates images from natural language descriptions, called "prompts", similar to OpenAI's DALL-E and Stable Diffusion."  
 
-[Runway Gen2](https://research.runwayml.com/gen2) is "A multimodal AI system that can generate novel videos with text, images or video clips." . Combined with MidJourney, using it's Image 2 Video capabilities, you can generate movies completely in these tools such as https://twitter.com/acstle/status/1684033395205230592?s=20 
+[Runway Gen2](https://research.runwayml.com/gen2) is "A multimodal AI system that can generate novel videos with text, images or video clips". Combined with MidJourney, using it's Image 2 Video capabilities, you can generate movies completely in these tools such as [this one](https://twitter.com/acstle/status/1684033395205230592?s=20 )
 
 ## What does your lab need to run AI/ML and Large Language Models (LLMs)?
 
