@@ -109,11 +109,11 @@ Modern processing capabilities have made LLMs practical in 2023, and humanity's 
 
 ## I keep hearing about HuggingFace, what is it?
 
-You might hear about HuggingFace as you dive deeper into these topics. HuggingFace is "the platform where the machine learning community collaborates on models, datasets, and applications.". Importantly, this is where people upload their [models](https://huggingface.co/models), their training [datasets](https://huggingface.co/datasets), where projects are categorized in [spaces](https://huggingface.co/spaces). One most interesting link - the LLM leaderboard:
+HuggingFace is "the platform where the machine learning community collaborates on models, datasets, and applications.". Importantly, this is where people upload their [models](https://huggingface.co/models), their training [datasets](https://huggingface.co/datasets), where projects are categorized in [spaces](https://huggingface.co/spaces). One most interesting link is the [the LLM leaderboard](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard) where the speed of development is apparent.
 
-https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard
+VMware has its own page in HuggingFace webpage with models and training sets that will offer you "Domain adapting language models to VMware-specific use cases" - you can find it here: 
 
-VMware has its own page in HuggingFace webpage with models and training sets that will offer you "Domain adapting language models to VMware-specific use cases"  
+https://huggingface.co/VMware  
 
 ## What does your lab need to run AI/ML and Large Language Models (LLMs)?
 
