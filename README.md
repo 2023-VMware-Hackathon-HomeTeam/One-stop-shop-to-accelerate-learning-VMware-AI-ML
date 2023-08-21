@@ -103,7 +103,7 @@ HuggingFace is "the platform where the machine learning community collaborates o
 
 VMware has its own page on the HuggingFace webpage with models and training sets that will offer you "Domain adapting language models to VMware-specific use cases": 
 
-https://huggingface.co/VMware  
+https://huggingface.co/VMware
 
 You can see in this [video from Prompt Engineering](https://youtu.be/N-qaMCwqRHI) how the website is browsed and how some features are used to test a new, more efficient model.  
 
@@ -135,7 +135,7 @@ Depending on how many LLMs, other models, or data sets you want to download or t
 
 ### Coral TPU  
 
-If you are interested in working with _[TensorFlow](https://www.tensorflow.org/)_, [William Lam](https://github.com/lamw) has managed to connect a [Coral USB TPU Accelerator to ESXi](https://williamlam.com/2023/05/google-coral-usb-edge-tpu-accelerator-on-esxi.html). This isn't cutting edge technology, but it's a very affordable TPU that you can get from Amazon and many other retailers; we brought one to the Hackathon if you want to see it! https://coral.ai/products/accelerator 
+If you are interested in working with _[TensorFlow](https://www.tensorflow.org/)_, [William Lam](https://github.com/lamw) has managed to connect a [Coral USB TPU Accelerator to ESXi](https://williamlam.com/2023/05/google-coral-usb-edge-tpu-accelerator-on-esxi.html). This isn't cutting edge technology, but it's a [very affordable TPU](https://coral.ai/products/accelerator) that you can get from Amazon and many other retailers; we brought one to the Hackathon if you want to see it!
 
 ### Generative AI
 
@@ -162,19 +162,19 @@ Let's look at two of those scripts, which install tools similar to _ChatGPT_ and
 
 ### But I don't have the hardware...  
 
-Recently we have seen demo use cases like https://towardsdatascience.com/distributed-llama-2-on-cpus-via-llama-cpp-pyspark-65736e9f466d that allow AI/ML to run on CPU with very small hardware requirements. The projects are not the same as an enterprise use case, but they can still help solidify concepts
+Recently we have seen demo use cases like _(Distributed Llama 2 on CPUs)[https://towardsdatascience.com/distributed-llama-2-on-cpus-via-llama-cpp-pyspark-65736e9f466d]_ that allow AI/ML to run on CPU with very small hardware requirements. The projects are not the same as an enterprise use case, but they can still help solidify concepts
 
 <p align="center" width="100%">
     <img src="https://github.com/2023-VMware-Hackathon-HomeTeam/One-stop-shop-to-accelerate-learning-VMware-AI-ML/assets/16085267/c1bde63b-f548-47e5-8958-5c90c07776fc" width="50%" />
 </p>
 
-Also, here's a tutorial on running the open source LLaMa 2 on Windows, Linux or Mac locally: https://replicate.com/blog/run-llama-locally  
+Also, here's a tutorial on [running the open source LLaMa 2 on Windows, Linux or Mac locally](https://replicate.com/blog/run-llama-locally).
 
 ### I've heard about LLaMa; what is it?
 
 [LLaMa](https://ai.meta.com/llama/) is an open source LLM available for free for research and commercial use. It seems to be one of the most popular options for learning and deploying in enterprises.  
 
-This beginner's guide is very good at explaining the concepts at a high level: https://agi-sphere.com/llama-guide/ In particular, this table is useful
+This [beginner's guide](https://agi-sphere.com/llama-guide/) is very good at explaining the concepts at a high level. In particular, this table is useful:
 
 <p align="center" width="100%">
     <img src="https://github.com/2023-VMware-Hackathon-HomeTeam/One-stop-shop-to-accelerate-learning-VMware-AI-ML/assets/16085267/b11428a8-a67b-419d-ac5c-c994f1158227" width="50%" />
