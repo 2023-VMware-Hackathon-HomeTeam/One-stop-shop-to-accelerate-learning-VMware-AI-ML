@@ -1,4 +1,5 @@
-# One-Stop Shop to Accelerate Learning of VMware and AI/ML
+# One-Stop Shop to Accelerate Your Learning of VMware and AI/ML
+
 | Welcome[^1] |
 |---|
 | <video src="https://user-images.githubusercontent.com/8474263/261398731-e645200c-cc57-40b8-b1c9-ccc76bb0d8fe.mp4" type="video/mp4">A futuristic looking AI generated human, shown in portrait, says, "Welcome to your one-stop shop for learning artificial intelligence and machine learning with VMware."</video>|
