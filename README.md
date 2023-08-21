@@ -1,7 +1,7 @@
 # One-Stop Shop to Accelerate Learning of VMware and AI/ML
 | Welcome[^1] |
 |---|
-| <video src="https://user-images.githubusercontent.com/8474263/261398731-e645200c-cc57-40b8-b1c9-ccc76bb0d8fe.mp4" type="video/mp4"> </video>|
+| <video src="https://user-images.githubusercontent.com/8474263/261398731-e645200c-cc57-40b8-b1c9-ccc76bb0d8fe.mp4" type="video/mp4">A futuristic looking AI generated human, shown in portrait, says, "Welcome to your one-stop shop for learning artificial intelligence and machine learning with VMware."</video>|
 
 ## Introduction
 This document is our product for the **2023 VMware Explore Hackathon**. We wanted to create a resource that can help a Virtual Infrastructure Admin understand the current landscape of AI/ML and how they can learn more about it, while also including how to learn these technologies from the comfort of their home. We also want to explore how much you can use your homelab to help you learn VMware technology in this field, and if we can make it easier for you, we will!
@@ -65,7 +65,7 @@ _Supervised learning_ involves training the system with labeled data. _Unsupervi
 There are many areas of study within Artificial Intelligence. Taking some definitions from "How AI Works" by Ronald Kneusel:  
 
 <p align="center" width="100%">
-    <img src="https://github.com/2023-VMware-Hackathon-HomeTeam/One-stop-shop-to-accelerate-learning-VMware-AI-ML/assets/16085267/d0de1662-05b6-40d8-97f5-807d39476550" width="50%" />
+    <img src="https://github.com/2023-VMware-Hackathon-HomeTeam/One-stop-shop-to-accelerate-learning-VMware-AI-ML/assets/16085267/d0de1662-05b6-40d8-97f5-807d39476550" width="50%" alt="A line drawing showing the relationship between artificial intelligence, machine learning, and deep learning. 'Deep learning' is written inside of an oval, which itself is inside a second oval where 'machine learning' is written, which again is inside a third oval where 'artificial intelligence' is written." />
 </p>
 
 > Machine learning builds models from data. For us, a model is an abstract notion of something that accepts inputs and generates outputs where the inputs and outputs are related in some meaningful way. The primary goal of machine learning is to condition a model using known data so that the model produces meaningful output when given unknown data. 
@@ -162,10 +162,10 @@ Let's look at two of those scripts, which install tools similar to _ChatGPT_ and
 
 ### But I don't have the hardware...  
 
-Recently we have seen demo use cases like _(Distributed Llama 2 on CPUs)[https://towardsdatascience.com/distributed-llama-2-on-cpus-via-llama-cpp-pyspark-65736e9f466d]_ that allow AI/ML to run on CPU with very small hardware requirements. The projects are not the same as an enterprise use case, but they can still help solidify concepts
+Recently we have seen demo use cases like _[Distributed Llama 2 on CPUs](https://towardsdatascience.com/distributed-llama-2-on-cpus-via-llama-cpp-pyspark-65736e9f466d)_ that allow AI/ML to run on CPU with very small hardware requirements. The projects are not the same as an enterprise use case, but they can still help solidify concepts.
 
 <p align="center" width="100%">
-    <img src="https://github.com/2023-VMware-Hackathon-HomeTeam/One-stop-shop-to-accelerate-learning-VMware-AI-ML/assets/16085267/c1bde63b-f548-47e5-8958-5c90c07776fc" width="50%" />
+    <img src="https://github.com/2023-VMware-Hackathon-HomeTeam/One-stop-shop-to-accelerate-learning-VMware-AI-ML/assets/16085267/c1bde63b-f548-47e5-8958-5c90c07776fc" width="50%" alt="An image of text from the opening section of the Distributed LLama 2 on CPUs article linked above." />
 </p>
 
 Also, here's a tutorial on [running the open source LLaMa 2 on Windows, Linux or Mac locally](https://replicate.com/blog/run-llama-locally).
@@ -177,7 +177,7 @@ Also, here's a tutorial on [running the open source LLaMa 2 on Windows, Linux or
 This [beginner's guide](https://agi-sphere.com/llama-guide/) is very good at explaining the concepts at a high level. In particular, this table is useful:
 
 <p align="center" width="100%">
-    <img src="https://github.com/2023-VMware-Hackathon-HomeTeam/One-stop-shop-to-accelerate-learning-VMware-AI-ML/assets/16085267/b11428a8-a67b-419d-ac5c-c994f1158227" width="50%" />
+    <img src="https://github.com/2023-VMware-Hackathon-HomeTeam/One-stop-shop-to-accelerate-learning-VMware-AI-ML/assets/16085267/b11428a8-a67b-419d-ac5c-c994f1158227" width="50%" alt="An image text from the 'What Computer Hardware Do I Need?' section of the beginner's guide linked above. Includes two tables of VRAM recommendations for various Llama model types." />
 </p>
 
 ## Diving Deeper - Where to go from here?
