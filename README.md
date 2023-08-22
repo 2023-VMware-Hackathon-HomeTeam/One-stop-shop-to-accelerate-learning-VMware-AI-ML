@@ -96,7 +96,9 @@ Modern processing capabilities have made LLMs practical in 2023, and humanity's 
 - News, courses, videos, toolkits and more are available from _[Learn with Google AI](https://ai.google/build/machine-learning/)_.  
 - _edX_ offers free and paid courses in [Artificial Intelligence](https://www.edx.org/learn/artificial-intelligence) and [Machine Learning](https://www.edx.org/learn/machine-learning).  
 - _Microsoft_ offers free courses in [Azure AI Services & Azure Machine Learning](https://learn.microsoft.com/en-us/training/browse/?expanded=azure&products=ai-services%2Cazure-machine-learning).  
-- Purchase a book from a person involved in this field. [How AI Works](https://nostarch.com/how-ai-works) is meant to be a general introduction to AI, ML and LLMs without complicated math but still giving you valuable context.   
+- Purchase a book from a person involved in this field. [How AI Works](https://nostarch.com/how-ai-works) is meant to be a general introduction to AI, ML and LLMs without complicated math but still giving you valuable context.
+- Purchase an NVIDIA course called [Introduction to AI in the Data Center](https://academy.nvidia.com/en/course/intro-aidc/?cm=12076)
+- [NIST Risk management for AI](https://www.nist.gov/itl/ai-risk-management-framework)  
 
 ## I keep hearing about HuggingFace; what is it?
 
